@@ -56,6 +56,15 @@ hr.solid {
 	float:inherit;
 }
 
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 20px;
+    border: 1px solid grey;
+  margin-right: 180px;
+  font-size: 17px;
+}
+
 
 <<<<<<< HEAD
 =======
@@ -156,8 +165,10 @@ ul.topnav li.dropdownIcon{
 /*######### Drop Down product ######*/
 
 .dropdown {
+    float: left;
 	position:absolute;
   display: inline-block;
+
 }
 
 .dropdown-content {

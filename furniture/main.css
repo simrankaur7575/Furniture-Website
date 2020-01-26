@@ -100,8 +100,9 @@ ul.topnav li img{
 }
 
 ul.topnav li a:hover{
-    background-color: blue;
-    color:azure;
+/*    background-color: blue;*/
+    color:orangered;
+    text-decoration: underline;
 }
 
 ul.topnav li.dropdownIcon{

@@ -108,7 +108,6 @@ img.loc{
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
 
-
 *{
     box-sizing: border-box;
 }
@@ -163,7 +162,6 @@ ul.topnav a:hover{
 /*    background-color: blue;*/
     color:orangered;
 }
-
 
 ul.topnav li a{
     display: block;
@@ -321,6 +319,13 @@ ul.topnav li.dropdownIcon{
 
 
 /*####### custom styles######*/
+
+.heading
+{
+    text-align: center;
+    font: 
+    
+}
 
 #section-1-gradient{
     background-image: linear-gradient(blue,#65a5ff);

@@ -1,3 +1,11 @@
+
+function MouseRollover(MyImage) {
+        MyImage.src = "location_O.png";
+    }
+	function MouseOut(MyImage) {
+        MyImage.src = "location_B.png";
+    }
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -41,3 +49,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+

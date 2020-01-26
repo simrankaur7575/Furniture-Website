@@ -70,7 +70,7 @@ nav{
 }
 
 nav ul{
-    background-color:blanchedalmond;
+    background-color:white;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -93,6 +93,10 @@ ul.topnav li a{
     padding: 14px;
     text-transform: uppercase;
     color:black;
+}
+
+ul.topnav li img{
+    padding: 14px;
 }
 
 ul.topnav li a:hover{

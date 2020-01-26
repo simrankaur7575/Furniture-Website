@@ -49,4 +49,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
->>>>>>> 231611854bd7ccafd7506683825b608ba28fe4c1
+

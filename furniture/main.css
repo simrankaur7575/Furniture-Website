@@ -50,6 +50,12 @@ article p{
   height: 184px;
 }
 
+hr.solid {
+	margin-top: 90px;
+  border-top: 1px solid grey;
+	float:inherit;
+}
+
 
 <<<<<<< HEAD
 =======

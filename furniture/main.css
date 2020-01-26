@@ -56,6 +56,7 @@ hr.solid {
 	float:inherit;
 }
 
+/*
 .topnav input[type=text] {
   float: right;
   padding: 6px;
@@ -64,6 +65,39 @@ hr.solid {
   margin-right: 180px;
   font-size: 17px;
 }
+*/
+
+.topnav .search-container {
+  float: right;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+/*  margin-top: 20px;*/
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+.topnav .search-container button {
+  float: right;
+  width: 60px;
+    height: 35px;
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+    background-color:darkgray;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
 
 
 <<<<<<< HEAD

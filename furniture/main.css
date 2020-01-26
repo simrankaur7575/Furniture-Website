@@ -315,6 +315,12 @@ ul.topnav li.dropdownIcon{
 
 /*####### custom styles######*/
 
+.heading
+{
+    text-align: center;
+    
+}
+
 #section-1-gradient{
     background-image: linear-gradient(blue,#65a5ff);
 }

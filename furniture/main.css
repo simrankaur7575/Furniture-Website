@@ -51,9 +51,9 @@ article p{
 }
 
 hr.solid {
-	margin-top: 90px;
+        margin-top: 90px;
   border-top: 1px solid grey;
-	float:inherit;
+        float:inherit;
 }
 
 
@@ -88,14 +88,12 @@ hr.solid {
   background: #ccc;
 }
 
-
 img.loc{
-	margin-top: 10px;
-	margin-left: 630px;
-	margin-right: 30px;
-	margin-bottom: 0;
+        margin-top: 10px;
+        margin-left: 630px;
+        margin-right: 30px;
+        margin-bottom: 0;
 }
-
 
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
@@ -131,11 +129,11 @@ nav ul{
 ul.topnav li{
     list-style: none;
     float: left;
-    
+
 }
 ul.topnav li.conPad{
     padding: 20px;
-    
+
 }
 ul.topnav li.aboutPad{
     padding-bottom: 20px;
@@ -153,11 +151,11 @@ ul.topnav a.pro{
     display: block;
     text-decoration: none;
     min-height: 16px;
-	margin-left: 10px;
-	padding: 25px;
+        margin-left: 10px;
+        padding: 25px;
     text-transform: uppercase;
     color:black;
-    
+
 }
 
 ul.topnav a:hover{
@@ -192,7 +190,7 @@ ul.topnav li.dropdownIcon{
 /*######### Drop Down product ######*/
 
 .dropdown {
-	position:absolute;
+        position:absolute;
   display: inline-block;
 }
 
@@ -325,8 +323,8 @@ ul.topnav li.dropdownIcon{
 .heading
 {
     text-align: center;
-    font: 
-    
+    font:
+
 }
 
 #section-1-gradient{
@@ -454,15 +452,15 @@ footer.footsy ul li{
         display: block;
         text-align: left;
     }
-    
+
     h1.section2Header{
         font-size: 50px;
     }
-    
+
     article p{
         font-size:25px;
     }
-    
+
     .col-6,
     .col-4,
     .col-7,
@@ -470,32 +468,32 @@ footer.footsy ul li{
         width: 100%;
         margin: 0;
     }
-    
+
     div.mobileStack{
         width: 50%;
         display: block;
     }
-    
+
     div.box{
         padding: 5px;
         display: block;
     }
-    
+
     /**/
-    
+
     div.slopeIcon{
         margin: 10px;
     }
-    
+
     div.slopeIcon img{
         width: 100%;
     }
-    
+
     div.leftSide-col,
     div.rightside-col{
         margin: 15px;
     }
-    
+
     input[type="text"]{
         width: 350px;
     }
@@ -506,11 +504,3 @@ footer.footsy ul li{
         overflow: hidden;
     }
 }
-
-
-
-
-
-
-
-

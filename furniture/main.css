@@ -51,6 +51,10 @@ article p{
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f3b86ae2294853f757d2a330cb3a6a502b613453
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
 .col-3{width: 25%;}
@@ -85,7 +89,19 @@ nav ul{
 ul.topnav li{
     list-style: none;
     float: left;
+    
 }
+ul.topnav li.conPad{
+    padding: 20px;
+    
+}
+ul.topnav li.aboutPad{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
 
 ul.topnav li.topnav-right {
     float: right;

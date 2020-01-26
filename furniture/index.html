@@ -4,6 +4,7 @@
         <title>My First Website</title>
         <link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="main2.js"></script>
     </head>
     <body>
         <nav>
@@ -12,6 +13,10 @@
                 <li><div class="vl"></div></li>
                 <li class="conPad"><a href="#contact">Contact</a></li>
                 <li class="aboutPad"><a href="#about">About</a></li>
+				<li><img class ="loc" src="location_B.png" border="0px" 
+					width="60px" height="60px" 
+					onMouseOver="MouseRollover(this)" 
+					onMouseOut="MouseOut(this)"></li>
 				<hr class="solid">
 				<div class="dropdown">
 				<a class="pro" href="#products">Products</a>
@@ -26,7 +31,7 @@
                 <a href="#">Cupboards</a>
                 <a href="#">Dressers</a>
 			  </div>
-			</div>
+			</div>	
                 <div class="search-container">
                 <form>
                 <input type="text" placeholder="Search.." name="search">

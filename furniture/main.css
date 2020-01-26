@@ -89,10 +89,12 @@ hr.solid {
 }
 
 img.loc{
+	display: block;
+	float: right;
 	margin-top: 10px;
-	margin-left: 630px;
-	margin-right: 30px;
+	margin-right: 0px;
 	margin-bottom: 0;
+	margin-left: 630px;
 }
 
 .col-1{width: 8.33%;}

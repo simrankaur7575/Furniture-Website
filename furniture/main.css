@@ -524,6 +524,14 @@ h1.large{
 h1.section2Header{
    font-size: 55px;
    text-align: center;
+    
+}
+
+.labelling
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+
 }
 
 form h2{

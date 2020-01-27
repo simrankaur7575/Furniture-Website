@@ -23,26 +23,38 @@
 					onMouseOver="MouseRollover(this)"
 					onMouseOut="MouseOut(this)"></li>
 				<hr class="solid">
-				<div class="dropdown">
-				<a class="pro" href="#products">Products</a>
-				<div class="dropdown-content">
-				<a href="#">Beds</a>
-				<a href="#">Seating</a>
-				<a href="#">Study Tables</a>
-               <a href="#">Dining Tables</a>
-               <a href="#">Mattress</a>
-               <a href="#">Sofa</a>
-               <a href="#">Coffee Tables</a>
-               <a href="#">Cupboards</a>
-               <a href="#">Dressers</a>
-			  </div>
-			</div>	
-               <div class="search-container">
-               <form>
-               <input type="text" placeholder="Search.." name="search">
-               <button type="submit"><i class="fa fa-search"></i></button>
-               </form>
-           </div>
+               <ul class="prosearch">
+				    <li><div class="dropdown">
+				    <a class="pro" href="#products">Products</a>
+				    <div class="dropdown-content">
+				    <a href="#">Beds</a>
+				    <a href="#">Seating</a>
+				    <a href="#">Study Tables</a>
+                    <a href="#">Dining Tables</a>
+                    <a href="#">Mattress</a>
+                    <a href="#">Sofa</a>
+                    <a href="#">Coffee Tables</a>
+                    <a href="#">Cupboards</a>
+                    <a href="#">Dressers</a>
+			         </div>
+			     </div>	
+                </li>
+                <li class="search-box">  
+                    <div id="cover">
+                        <form method="get" action="">
+                            <div class="tb">
+                                <div class="td"><input type="text" placeholder="Search" required></div>
+                            <div class="td" id="s-cover">
+                                <button type="submit">
+                                    <div id="s-circle"></div>
+                                    <span></span>
+                                </button>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+               </ul>
            </ul>
        </nav>
 

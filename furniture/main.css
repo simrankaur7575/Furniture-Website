@@ -51,9 +51,11 @@ article p{
 }
 
 hr.solid {
-	margin-top: 90px;
- border-top: 1px solid grey;
-	float:inherit;
+
+        margin-top: 90px;
+  border-top: 1px solid grey;
+        float:inherit;
+
 }
 
 
@@ -89,10 +91,10 @@ hr.solid {
 }
 
 img.loc{
-	margin-top: 10px;
-	margin-left: 630px;
-	margin-right: 30px;
-	margin-bottom: 0;
+        margin-top: 10px;
+        margin-left: 630px;
+        margin-right: 30px;
+        margin-bottom: 0;
 }
 
 .col-1{width: 8.33%;}
@@ -127,12 +129,13 @@ nav ul{
 }
 
 ul.topnav li{
-   list-style: none;
-   float: left;
+
+    list-style: none;
+    float: left;
 
 }
 ul.topnav li.conPad{
-   padding: 20px;
+    padding: 20px;
 
 }
 ul.topnav li.aboutPad{
@@ -148,13 +151,14 @@ ul.topnav li.topnav-right {
 }
 
 ul.topnav a.pro{
-   display: block;
-   text-decoration: none;
-   min-height: 16px;
-	margin-left: 10px;
-	padding: 25px;
-   text-transform: uppercase;
-   color:black;
+
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+        margin-left: 10px;
+        padding: 25px;
+    text-transform: uppercase;
+    color:black;
 
 }
 
@@ -190,8 +194,10 @@ ul.topnav li.dropdownIcon{
 /*######### Drop Down product ######*/
 
 .dropdown {
-	position:absolute;
- display: inline-block;
+
+        position:absolute;
+  display: inline-block;
+
 }
 
 .dropdown-content {
@@ -322,12 +328,18 @@ ul.topnav li.dropdownIcon{
 
 .heading
 {
+<<<<<<< HEAD
    text-align: center;
 <<<<<<< HEAD
    font:
 =======
    font: 
 >>>>>>> cec3990d6b5ce3926dc561020bce008e5346d8cc
+=======
+
+    text-align: center;
+    font:
+>>>>>>> ee0697d2b4f9fd1fce9de668558369ea846694fe
 
 }
 
@@ -433,78 +445,81 @@ footer.footsy ul li{
 
 @media screen and (max-width: 680px)
 {
-   ul.topnav li:not(:nth-child(1)){
-       display: none;
-   }
-   ul.topnav li.dropdownIcon{
-       display: block;
-       float: right;
-   }
-   ul.topnav.responsive li.dropdownIcon{
-       position: absolute;
-       top: 0;
-       right: 0;
-   }
-   ul.topnav.responsive{
-       position: relative;
-   }
-   ul.topnav.responsive li{
-       display: inline;
-       float: none;
-   }
-   ul.topnav.responsive li a{
-       display: block;
-       text-align: left;
-   }
 
-   h1.section2Header{
-       font-size: 50px;
-   }
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
 
-   article p{
-       font-size:25px;
-   }
+    h1.section2Header{
+        font-size: 50px;
+    }
 
-   .col-6,
-   .col-4,
-   .col-7,
-   .col-5{
-       width: 100%;
-       margin: 0;
-   }
+    article p{
+        font-size:25px;
+    }
 
-   div.mobileStack{
-       width: 50%;
-       display: block;
-   }
+    .col-6,
+    .col-4,
+    .col-7,
+    .col-5{
+        width: 100%;
+        margin: 0;
+    }
 
-   div.box{
-       padding: 5px;
-       display: block;
-   }
+    div.mobileStack{
+        width: 50%;
+        display: block;
+    }
 
-   /**/
+    div.box{
+        padding: 5px;
+        display: block;
+    }
 
-   div.slopeIcon{
-       margin: 10px;
-   }
+    /**/
 
-   div.slopeIcon img{
-       width: 100%;
-   }
+    div.slopeIcon{
+        margin: 10px;
+    }
 
-   div.leftSide-col,
-   div.rightside-col{
-       margin: 15px;
-   }
+    div.slopeIcon img{
+        width: 100%;
+    }
 
-   input[type="text"]{
-       width: 350px;
-   }
-   .vedioContainer iframe{
-       position: relative;
-       width:100%;
-       margin: 0;
-       overflow: hidden;
-   }
+    div.leftSide-col,
+    div.rightside-col{
+        margin: 15px;
+    }
+
+    input[type="text"]{
+        width: 350px;
+    }
+    .vedioContainer iframe{
+        position: relative;
+        width:100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+
 }

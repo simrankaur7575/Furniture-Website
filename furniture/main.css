@@ -556,6 +556,18 @@ footer.footsy h1{
    font-size: 35px;
 }
 
+div.row div.col-3 mobileStack{
+    align-content: center;
+    text-align: center;
+}
+
+img.contact{
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+    
+} 
+
 footer.footsy ul{
    list-style: none;
    text-align: left;

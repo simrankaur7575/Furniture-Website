@@ -220,9 +220,43 @@ ul.prosearch li.search-box #s-cover:hover span
 
 
 
+/*########### Furnture icons ##########*/
+.explore{
+	text-align: center;
+	padding-bottom: 7%;
+}
 
+p.cont{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
 
+div.fur_icon{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: antiquewhite;
+}
 
+img.Bed{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 60px;
+    width: 60px;
+    
+} 
+
+img.chair{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 65px;
+    width: 55px;
+}
 
 
 ul.topnav li.topnav_right{

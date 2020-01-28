@@ -37,6 +37,7 @@ article p{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
+	padding: 10px;
 }
 
 .row::after{
@@ -256,6 +257,14 @@ img.chair{
 	display: block;
     height: 65px;
     width: 55px;
+}
+
+img.Sofa{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 55px;
+    width: 77px;
 }
 
 

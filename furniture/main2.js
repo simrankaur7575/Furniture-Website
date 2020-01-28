@@ -6,6 +6,20 @@ function MouseRollover(MyImage) {
         MyImage.src = "location_B.png";
     }
 
+function MouseRollover1(MyImage) {
+        MyImage.src = "o_bed.png";
+    }
+	function MouseOut1(MyImage) {
+        MyImage.src = "b_bed.png";
+    }
+
+function MouseRollover2(MyImage) {
+        MyImage.src = "o_tv.png";
+    }
+	function MouseOut2(MyImage) {
+        MyImage.src = "b_tv.png";
+    }
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

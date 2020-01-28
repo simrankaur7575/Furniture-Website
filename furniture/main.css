@@ -40,6 +40,7 @@ article p{
 	padding: 10px;
 }
 
+
 .row::after{
    display: table;
    clear: both;
@@ -369,10 +370,15 @@ ul.topnav a.pro{
 
 }
 
+
+
 ul.topnav a:hover{
 /*    background-color: blue;*/
    color:orangered;
+   text-decoration: none;
 }
+
+
 
 ul.topnav li a{
    display: block;
@@ -386,7 +392,7 @@ ul.topnav li a{
 
 
 ul.topnav li img{
-	padding: 14px
+	padding: 14px;
 
 }
 
@@ -540,6 +546,9 @@ ul.topnav li.dropdownIcon{
  from {opacity: .4}
  to {opacity: 1}
 }
+
+
+
 
 
 
@@ -858,7 +867,21 @@ footer.footsy ul li{
    font-size: 22px;
    line-height: 1.5;
 }
+ul.topnav li.conPad a:hover{
+	text-decoration: none;
+}
 
+ul.topnav li.aboutPad a:hover{
+	text-decoration: none;
+}
+
+ul.topnav ul.prosearch a.pro{
+	text-decoration: none;
+}
+
+ul.topnav ul.prosearch a.d_down{
+	text-decoration: none;
+}
 
 /*####### Mobile ######*/
 

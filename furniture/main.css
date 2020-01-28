@@ -678,45 +678,113 @@ p.para{
     text-align: center;
 }
 
-img.contact{
+div.row div.col-3 mobileStack{
+    padding: 30px;
+}
+
+div.icon_call{
     border: 1px solid gray;
-    padding: 10px;
-/*    border-bottom-width: thin;*/
-    border-radius: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 80px;
-    width: 80px;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+    
+/*    padding-top: 12px;*/
     
 }
 
-img.mail{
+div.icon_call img.contact{
+/*
+    border: 1px solid #dedede;
+    border-radius: 100%;
+*/
+/*    margin: 0 auto 20px;*/
+/*    padding: 10px;*/
+/*    border-spacing: 40px 40px;*/
+/*    border-bottom-width: thin;*/
+/*    border-radius: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 16px;
+    height: 70px;
+    width: 60px;
+    vertical-align: center;
+    background-size: 80px;
+    
+    
+}
+
+div.icon_mail{
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+    
+/*    padding-top: 12px;*/
+    
+}
+
+div.icon_mail img.mail{
 /*    margin: 20px;*/
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 21px;
     height: 60px;
     width: 80px;
+    vertical-align: center;
+    background-size: 80px;
     
 }
 
-img.visiting_hours{
+div.icon_hours{
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+    
+/*    padding-top: 12px;*/
+    
+}
+
+div.icon_hours img.hours{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 20px;
     height: 60px;
     width: 60px;
+    vertical-align: center;
+    background-size: 80px;
+}
+
+div.icon_location{
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+    
+/*    padding-top: 12px;*/
     
 }
 
-img.store_address{
+div.icon_location img.address{
     margin-left: auto;
     margin-right: auto;
     display: block;
+     margin-top: 20px;
     height: 60px;
     width: 65px;
-    
+    vertical-align: center;
+    background-size: 80px;
 }
 
 

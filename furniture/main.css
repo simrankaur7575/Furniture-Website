@@ -591,7 +591,8 @@ h2.features
     margin-top: 60px;
     font-family: 'Dosis', sans-serif;
     line-height: 30px;
-    
+    font-style: italic;
+    font-weight: 100;
     color: black;
     
 

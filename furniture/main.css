@@ -528,6 +528,15 @@ ul.topnav li.dropdownIcon{
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
+h2.features
+{
+    text-align: center;
+    margin: 40px;
+    margin-top: 60px;
+    
+
+}
+
 /* This container is needed to position the front and back side */
 .box {
   position: relative;

@@ -635,27 +635,77 @@ input[type="text"]{
    border-radius: 7px;
 }
 
+/*####### Footer #############*/
+
 footer.footsy{
    background-color: blanchedalmond;
-   padding-left: 10%;
+   padding:5%;
+   padding-top: 2%;
 }
 
-footer.footsy h1{
-   color: black;
-   font-size: 35px;
+footer.footsy h1.footer_heading{
+   margin:3px;
+    padding: 0;
+    margin-bottom: 30px;;
+   color: darkgray;
+   font-size: 45px;
+}
+
+hr.solid2{
+    border-top: 1px solid grey;
+    margin-bottom: 35px;
 }
 
 div.row div.col-3 mobileStack{
+    padding: 4%;
     align-content: center;
     text-align: center;
 }
 
+p.para{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
 img.contact{
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 60px;
     width: 60px;
     
-} 
+}
+
+img.mail{
+/*    margin: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 60px;
+    width: 80px;
+    
+}
+
+img.visiting_hours{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 60px;
+    width: 60px;
+    
+}
+
+img.store_address{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 60px;
+    width: 65px;
+    
+}
+
 
 footer.footsy ul{
    list-style: none;

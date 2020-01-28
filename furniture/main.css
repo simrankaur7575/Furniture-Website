@@ -237,7 +237,8 @@ ul.prosearch li.search-box #s-cover:hover span
 /*########### Furnture icons ##########*/
 .explore{
 	text-align: center;
-	padding-bottom: 7%;
+/*	padding-bottom: 7%;*/
+    font-family: 'Chivo', sans-serif;
 }
 
 p.cont{
@@ -245,6 +246,8 @@ p.cont{
 	margin-right: auto;
 	display: block;
 	text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
 }
 
 p.Find_us{
@@ -580,6 +583,10 @@ h2.features
     text-align: center;
     margin: 40px;
     margin-top: 60px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 30px;
+    
+    color: black;
     
 
 }
@@ -682,11 +689,6 @@ h1.large{
    line-height: 70px;
 }
 
-h1.section2Header{
-   font-size: 55px;
-   text-align: center;
-    
-}
 
 .labelling
 {

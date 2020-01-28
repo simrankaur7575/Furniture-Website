@@ -241,6 +241,12 @@ ul.prosearch li.search-box #s-cover:hover span
     font-family: 'Chivo', sans-serif;
 }
 
+.expl{
+	text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Chivo', sans-serif;
+}
+
 p.cont{
 	margin-left: auto;
 	margin-right: auto;

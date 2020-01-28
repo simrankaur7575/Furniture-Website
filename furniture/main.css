@@ -259,7 +259,7 @@ div.fur_icon{
 	padding-right: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-color: antiquewhite;
+	background-color: #faebd7;
 }
 
 img.Bed{
@@ -633,6 +633,8 @@ h2.features
   background: linear-gradient(to bottom, #ff9966 0%, #ffcc99 100%);
   color: white;
   transform: rotateY(180deg);
+	box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
+       0 2px 3px 0 rgba(0/*shadow*/,0/*bacground color*/,0/*Box color*/,.15/*opacity*/),2px 2px 7px 2px rgba(0,0,0,1);
 }
 
 .linee{
@@ -710,7 +712,8 @@ input[type="text"]{
 /*####### Footer #############*/
 
 footer.footsy{
-   background-color: blanchedalmond;
+   /*background-color: blanchedalmond;*/
+  background-color: #ffd7cc;
    padding:5%;
    padding-top: 2%;
 }

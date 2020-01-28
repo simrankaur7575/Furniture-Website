@@ -267,6 +267,13 @@ img.Sofa{
     width: 77px;
 }
 
+img.Table{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 55px;
+    width: 77px;
+}
 
 ul.topnav li.topnav_right{
         float: right;

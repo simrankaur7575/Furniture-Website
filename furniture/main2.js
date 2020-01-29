@@ -1,4 +1,3 @@
-
 function MouseRollover(MyImage) {
         MyImage.src = "location_O.png";
     }

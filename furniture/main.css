@@ -37,7 +37,7 @@ article p{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-	padding: 10px;
+        padding: 10px;
 }
 
 
@@ -61,6 +61,8 @@ hr.solid {
 }
 
 
+
+
 /*########### Search bar #############*/
 
 ul.prosearch li{
@@ -82,7 +84,7 @@ ul.prosearch li.search-box{
     vertical-align: middle;
 }
 
-ul.prosearch li.search-box input, 
+ul.prosearch li.search-box input,
 ul.prosearch li.search-box button
 {
     color: #fff;
@@ -122,8 +124,8 @@ ul.prosearch li.search-box input[type="text"]::placeholder
 ul.prosearch li.search-box input, select, textarea{
     font-size: 23px;
     color: #1f1f14;
-    
-} 
+
+}
 
 ul.prosearch li.search-box input:focus {
     outline:none;
@@ -177,7 +179,7 @@ ul.prosearch li.search-box button span:before, button span:after
 
 ul.prosearch li.search-box #s-cover:hover #s-circle
 {
-    
+
     top: -1px;
     width: 40px;
     height: 10px;
@@ -190,7 +192,7 @@ ul.prosearch li.search-box #s-cover:hover span
 {
     top: 50%;
     left: 56px;
-    
+
     height: 17px;
     width: 25px;
     margin-top: -9px;
@@ -234,82 +236,82 @@ ul.prosearch li.search-box #s-cover:hover span
 
 /*########### Furnture icons ##########*/
 .explore{
-	text-align: center;
-/*	padding-bottom: 7%;*/
+        text-align: center;
+/*      padding-bottom: 7%;*/
     font-family: 'Chivo', sans-serif;
 }
 
 .expl{
-	text-align: center;
+        text-align: center;
     padding-bottom: 5%;
     font-family: 'Chivo', sans-serif;
 }
 
 p.cont{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }
 
 p.Find_us{
-	padding: 0px;
-	margin-top: 4px;
-	margin-bottom: 0px;
-	font-size: 15px;
+        padding: 0px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-size: 15px;
 }
 
 div.fur_icon{
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background-color: #faebd7;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: #faebd7;
 }
 
 img.Bed{
     margin-left: auto;
-	margin-right: auto;
-	display: block;
+        margin-right: auto;
+        display: block;
     height: 60px;
     width: 60px;
-    
-} 
+
+}
 
 img.chair{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     height: 65px;
     width: 55px;
 }
 
 img.Sofa{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     height: 55px;
     width: 77px;
 }
 
 img.Table{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     height: 55px;
     width: 77px;
 }
 
 ul.topnav li.topnav_right{
         float: right;
-	    padding: 12px;
+            padding: 12px;
 }
 
 a.remove_link{
-	text-decoration: none;
-	color: black;
+        text-decoration: none;
+        color: black;
 }
 
 .col-1{width: 8.33%;}
@@ -399,7 +401,7 @@ ul.topnav li a{
 
 
 ul.topnav li img{
-	padding: 14px;
+        padding: 14px;
 
 }
 
@@ -410,14 +412,14 @@ ul.topnav li a:hover{
 }
 
 ul.topnav li img.loc{
-	padding: 0px;
+        padding: 0px;
 }
 
 ul.topnav li a.anc{
-	padding: 0px;
-	color: black;
-	text-decoration: none;
-	margin-bottom: 0px;
+        padding: 0px;
+        color: black;
+        text-decoration: none;
+        margin-bottom: 0px;
 }
 
 
@@ -575,7 +577,7 @@ ul.topnav li.dropdownIcon{
 /*################# Flip box ##############*/
 .flip-box {
   background-color: transparent;
-	border: 0px solid #fff;
+        border: 0px solid #fff;
   width: 350px;
   height: 250px;
   border: 1px solid white;
@@ -592,7 +594,7 @@ h2.features
     font-style: italic;
     font-weight: 100;
     color: black;
-    
+
 
 }
 
@@ -608,12 +610,12 @@ h2.features
 }
 
 .iconn{
-	margin-top: 40px;
-	margin-bottom: 0px;
+        margin-top: 40px;
+        margin-bottom: 0px;
 }
 
 .labelling{
-	margin-top: 15px;
+        margin-top: 15px;
 }
 
 
@@ -636,7 +638,7 @@ h2.features
 .flip-box-front {
   background-color: white;
   color: black;
-	box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
+        box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
        0 2px 3px 0 rgba(0/*shadow*/,0/*bacground color*/,0/*Box color*/,.15/*opacity*/),2px 2px 7px 2px rgba(0,0,0,1);
 }
 
@@ -645,12 +647,12 @@ h2.features
   background: linear-gradient(to bottom, #ff9966 0%, #ffcc99 100%);
   color: white;
   transform: rotateY(180deg);
-	box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
+        box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
        0 2px 3px 0 rgba(0/*shadow*/,0/*bacground color*/,0/*Box color*/,.15/*opacity*/),2px 2px 7px 2px rgba(0,0,0,1);
 }
 
 .linee{
-	margin-top: 100px;
+        margin-top: 100px;
 }
 
 div.slopeIcon img{
@@ -762,9 +764,9 @@ div.icon_call{
     height: 120px;
     width: 120px;
     padding: 7px;
-    
+
 /*    padding-top: 12px;*/
-    
+
 }
 
 div.icon_call img.contact{
@@ -785,8 +787,8 @@ div.icon_call img.contact{
     width: 60px;
     vertical-align: center;
     background-size: 80px;
-    
-    
+
+
 }
 
 div.icon_mail{
@@ -796,9 +798,9 @@ div.icon_mail{
     height: 120px;
     width: 120px;
     padding: 7px;
-    
+
 /*    padding-top: 12px;*/
-    
+
 }
 
 div.icon_mail img.mail{
@@ -811,7 +813,7 @@ div.icon_mail img.mail{
     width: 80px;
     vertical-align: center;
     background-size: 80px;
-    
+
 }
 
 div.icon_hours{
@@ -821,9 +823,9 @@ div.icon_hours{
     height: 120px;
     width: 120px;
     padding: 7px;
-    
+
 /*    padding-top: 12px;*/
-    
+
 }
 
 div.icon_hours img.hours{
@@ -844,9 +846,9 @@ div.icon_location{
     height: 120px;
     width: 120px;
     padding: 7px;
-    
+
 /*    padding-top: 12px;*/
-    
+
 }
 
 div.icon_location img.address{
@@ -863,7 +865,7 @@ div.icon_location img.address{
 a.link-remove{
     text-decoration: none;
     color: black;
-} 
+}
 
 
 footer.footsy ul{
@@ -878,19 +880,19 @@ footer.footsy ul li{
    line-height: 1.5;
 }
 ul.topnav li.conPad a:hover{
-	text-decoration: none;
+        text-decoration: none;
 }
 
 ul.topnav li.aboutPad a:hover{
-	text-decoration: none;
+        text-decoration: none;
 }
 
 ul.topnav ul.prosearch a.pro{
-	text-decoration: none;
+        text-decoration: none;
 }
 
 ul.topnav ul.prosearch a.d_down{
-	text-decoration: none;
+        text-decoration: none;
 }
 
 /*####### Mobile ######*/

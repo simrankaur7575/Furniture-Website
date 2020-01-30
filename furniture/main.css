@@ -481,7 +481,7 @@ ul.topnav li.dropdownIcon{
 
 .dropdown-content {
   display: none;
-  position:absolute;
+  position:fixed;
   background-color: #f1f1f1;
   width: 50%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -492,7 +492,6 @@ ul.topnav li.dropdownIcon{
 
 .dropdown:hover .dropdown-content {
   display: block;
-	
 }
 
 /* Create three equal columns that floats next to each other */
@@ -583,8 +582,9 @@ ul.topnav li.dropdownIcon{
 /* Slideshow container */
 .slideshow-container {
  max-width: 1000px;
- position: relative;
+ position: absolute;
  margin: auto;
+	z-index: -1;
 }
 
 /* Hide the images by default */
@@ -699,7 +699,7 @@ ul.topnav li.dropdownIcon{
         border: 0px solid #fff;
   width: 350px;
   height: 250px;
-  border: 1px solid white;
+  border: 1px solid transparent;
   
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -727,7 +727,7 @@ h2.features
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin-left: 60px;
+	margin-left: 20px;
 }
 
 .iconn{

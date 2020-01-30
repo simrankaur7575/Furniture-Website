@@ -39,6 +39,13 @@ body {
 	margin-top: 180px;
 }
 
+.left:hover{
+        webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    color: black;
+    
+    }
+
 .right {
   right: 0;
   background-image: url('doubleBed4.jpg');
@@ -47,6 +54,11 @@ body {
 	border: 8px solid black;
 	margin-top: 180px;
 }
+    
+.right:hover{
+        webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    }
 
 .centered {
   position: absolute;
@@ -56,7 +68,9 @@ body {
   text-align: center;
 	color: black;
 	font-size: 20px;
+ color: transparent;
 }
+    
 
 
 </style>
@@ -133,13 +147,13 @@ body {
 	
 <div class="split left">
   <div class="centered">
-    <h2>Single Beds</h2>
+    <h2 class="a">Single Beds</h2>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
-    <h2>Double Beds</h2>
+    <h2 class="b">Double Beds</h2>
   </div>
 </div>
      

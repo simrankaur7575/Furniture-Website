@@ -868,6 +868,11 @@ p.para{
 	color: white;
 }
 
+footer.footsy a.button{
+	text-decoration: none;
+	color: white;
+}
+
 div.row div.col-3 mobileStack{
     padding: 30px;
 }

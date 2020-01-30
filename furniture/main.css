@@ -1026,6 +1026,15 @@ ul.topnav ul.prosearch a.d_down{
 
 /*####### Mobile ######*/
 
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 680px)
 {
 
@@ -1075,7 +1084,8 @@ ul.topnav ul.prosearch a.d_down{
         width: 50%;
         display: block;
     }
-
+	 
+	
     div.box{
         padding: 5px;
         display: block;
@@ -1105,6 +1115,7 @@ ul.topnav ul.prosearch a.d_down{
         margin: 0;
         overflow: hidden;
     }
+
 
 
 }

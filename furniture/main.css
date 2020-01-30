@@ -258,6 +258,7 @@ p.cont{
         text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
+	text-decoration: none;
 }
 
 p.Find_us{
@@ -315,6 +316,11 @@ ul.topnav li.topnav_right{
 
 a.remove_link{
         text-decoration: none;
+        color: black;
+}
+
+div.fur_icon a:hover{
+	text-decoration: none;
         color: black;
 }
 

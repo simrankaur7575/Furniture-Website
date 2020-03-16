@@ -165,6 +165,16 @@ padding: 10px;
 
 #myImg:hover {opacity: 0.7;}
 
+#myImg2 {
+padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */

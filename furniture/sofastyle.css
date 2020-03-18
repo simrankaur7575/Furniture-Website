@@ -165,6 +165,91 @@ padding: 10px;
 #myImg:hover {opacity: 0.7;}
 
 
+/* Style the Image Used to Trigger the Modal */
+#myImg2 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+
+#myImg6 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+
+#myImg7 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg7:hover {opacity: 0.7;}
+
+#myImg8 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg8:hover {opacity: 0.7;}
+
+#myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14 {
+    padding: 10px;
+    padding-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg9:hover, #myImg10:hover, #myImg11:hover, #myImg12:hover, #myImg13:hover, #myImg14:hover {opacity: 0.7;}
+
+
+
+
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -203,11 +288,40 @@ padding: 10px;
 }
 
 
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#caption3, #caption4, #caption5, #caption6, #caption7, #caption8, #caption9, #caption10, #caption11, #caption12, #caption13, #caption14 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+
 
 /* Add Animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+.modal-content, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8, #caption9,#caption10, #caption11, #caption12, #caption13, #caption14 {
   animation-name: zoom;
   animation-duration: 0.6s;
 }

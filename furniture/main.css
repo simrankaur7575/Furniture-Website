@@ -57,7 +57,7 @@ hr.solid {
 
    margin-top: 90px;
   border-top: 1px solid grey;
-
+margin-left: 450px;
 
 }
 
@@ -244,6 +244,8 @@ ul.prosearch li.search-box #s-cover:hover span
         text-align: center;
 /*      padding-bottom: 7%;*/
     font-family: 'Chivo', sans-serif;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 .expl{
@@ -701,7 +703,7 @@ ul.topnav li.dropdownIcon{
   width: 350px;
   height: 250px;
   border: 1px solid transparent;
-  
+  margin-bottom: 30px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -728,7 +730,7 @@ h2.features
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 .iconn{

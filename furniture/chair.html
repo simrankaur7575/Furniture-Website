@@ -89,7 +89,10 @@ body {
                <li><div class="vl"></div></li>
                <li class="conPad"><a href="#contact" >Contact</a></li>
                <li class="aboutPad"><a href="#about"  >About</a></li>
-
+			   <li class="findd"><a href="map.html"  >Find Us</a></li>
+                             
+               
+               <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownmenu()" >&#9776</a></li>
 				<li class="topnav_right">
 					<a href="map.html" class="anc">
 					<img class ="loc" src="location_B.png" border="0px"
@@ -164,6 +167,18 @@ body {
   </div>
 </div>
 	</a>
-	
+	<script>
+    function dropdownmenu(){
+        var x= document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+        }
+        else{
+            x.className = "topnav";
+        }
+    }      
+
+    </script>
 </body>
 </html> 

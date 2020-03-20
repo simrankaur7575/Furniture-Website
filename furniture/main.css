@@ -1041,6 +1041,32 @@ ul.topnav ul.prosearch a.d_down{
 @media screen and (max-width: 680px)
 {
 
+	.flip-box {
+  background-color: transparent;
+        border: 0px solid #fff;
+  width: 350px;
+  height: 250px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		margin-left: 50px;
+}
+	
+	h2.features
+{
+    text-align: center;
+    margin: 40px;
+    margin-top: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 100;
+    color: black;
+
+
+}
+	
     ul.topnav li:not(:nth-child(1)){
         display: none;
     }

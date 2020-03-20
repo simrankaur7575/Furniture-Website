@@ -40,7 +40,10 @@
                <li class="conPad"><a href="#contact" >Contact</a></li>
                <li class="aboutPad"><a href="#about"  >About</a></li>
                
+                             <li class="findd"><a href="map.html"  >Find Us</a></li>
                              
+               
+               <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownmenu()" >&#9776</a></li>
                
                
 
@@ -578,7 +581,19 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
-  
+  <script>
+    function dropdownmenu(){
+        var x= document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+        }
+        else{
+            x.className = "topnav";
+        }
+    }      
+
+    </script>
 <script>
             // Get the modal
 var modal = document.getElementById("myModal2");

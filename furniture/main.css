@@ -696,6 +696,12 @@ ul.topnav li.dropdownIcon{
    text-align: center;
 }
 
+.noImages
+{
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
 #section-1-gradient{
    background-image: linear-gradient(blue,#65a5ff);
 }

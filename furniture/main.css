@@ -732,6 +732,34 @@ h2.features
 
 }
 
+.offer
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+
+.offerText
+{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    left: 600px;
+
+}
+.conditionText
+{
+    font-size: 20px;
+/*    position: absolute;*/
+    padding-left: 30px;
+    
+}
 /* This container is needed to position the front and back side */
 .box {
   position: relative;

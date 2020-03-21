@@ -1284,6 +1284,15 @@ ul.topnav li.findd a:hover{
         overflow: hidden;
     }
 
-
-
-}
+    div.offerText
+    {
+        font-size: 15px;
+        position: absolute;
+        left: 40px;
+    }
+    
+    .conditionText
+    {
+        font-size: 15px;
+    }
+}   

@@ -38,7 +38,7 @@
 
                <li><div class="vl"></div></li>
                <li class="conPad"><a href="#contact" >Contact</a></li>
-               <li class="aboutPad"><a href="#about"  >Offers</a></li>
+               <li class="aboutPad"><a href=offers.html  >Offers</a></li>
                <li class="findd"><a href="map.html"  >Find Us</a></li>
                              
                
@@ -122,7 +122,7 @@
           
        </div>
        
-       <p class="conditionText">*conditions applied</p>
+       <p class="conditionText">*Limited time offer and conditions applied</p>
        
     
               	<footer class="footsy" id="fott">
@@ -233,7 +233,19 @@
     </footer>
 
        
-       
+       <script>
+    function dropdownmenu(){
+        var x= document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+        }
+        else{
+            x.className = "topnav";
+        }
+    }      
+
+    </script>
        
    </body>
     

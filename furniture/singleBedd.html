@@ -40,7 +40,10 @@
                <li class="conPad"><a href="#contact" >Contact</a></li>
                <li class="aboutPad"><a href="#about"  >About</a></li>
                
+                     <li class="findd"><a href="map.html"  >Find Us</a></li>
                              
+               
+               <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownmenu()" >&#9776</a></li>        
                
                
 
@@ -242,127 +245,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <img id="myImg5" src="table5_sk.PNG" alt="SOF_1235" style="height: 300px; width:100%; display: block; margin-left: auto; margin-right: auto;max-width:300px">
+                   
                             
-                                <div id="myModal5" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img05">
-                                    <div id="caption5"></div>
-                                </div>
                             
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#"> SOF_1235
-                                  </a>
-                                </h4>
-                                <p class="inner-text">
-                                    Royal blue
-                                </p>
-                            </div>
-                            <div class="card-read-more">
-                                <a href="">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            
-                            <img id="myImg6" src="table6_sk.PNG" style="height: 300px; width:100%; display: block; margin-left: auto; margin-right: auto;max-width:300px">
-                            
-                            <div id="myModal6" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img06">
-                                    <div id="caption6"></div>
-                                </div>
-                            
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#">SOF_1236
-                                  </a>
-                                </h4>
-                                <p class="inner-text">
-                                    Cherry Red
-                                </p>
-                            </div>
-                            <div class="card-read-more">
-                                <a href="#">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            
-                                <img id="myImg7" src="table8_sk.PNG" alt="SOF_1234" style="height: 300px; width:100%; display: block; margin-left: auto; margin-right: auto;max-width:300px">
-                            
-                                <div id="myModal7" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img07">
-                                    <div id="caption7"></div>
-                                </div>
-                            
-                        
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#">
-                                        SOF_1234
-                                  </a>
-                                </h4>
-                                <p class="inner-text">
-                                    Fabric, Grey
-                                </p>
-                            </div>
-                            <div class="card-read-more">
-                                <a href="#">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <img id="myImg8" src="table9_sk.PNG" alt="SOF_1235" style="height: 300px; width:100%; display: block; margin-left: auto; margin-right: auto;max-width:300px">
-                            
-                                <div id="myModal8" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img08">
-                                    <div id="caption8"></div>
-                                </div>
-                            
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#"> SOF_1235
-                                  </a>
-                                </h4>
-                                <p class="inner-text">
-                                    Royal blue
-                                </p>
-                            </div>
-                            <div class="card-read-more">
-                                <a href="">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-				
-				
-            </div>
-        </div>
-    </div>
-</section>
-   
-       
        
        
        
@@ -559,7 +444,19 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>      
-      
+      <script>
+    function dropdownmenu(){
+        var x= document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+        }
+        else{
+            x.className = "topnav";
+        }
+    }      
+
+    </script>
        
               
        	<footer class="footsy" id="fott">

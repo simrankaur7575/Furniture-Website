@@ -23,6 +23,7 @@
        <link rel="stylesheet" href="main.css">
  <link href="https://fonts.googleapis.com/css?family=Chivo|Dosis|Open+Sans+Condensed:300&display=swap" rel="stylesheet">     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
        <link rel="stylesheet" href="sofastyle.css">
        <link rel="stylesheet" href="main.css">
       <script src="main2.js"></script>
@@ -98,6 +99,7 @@
                              </div>    
 										</div>
                 </li>   
+<!--
                 <li class="search-box"> 
                     <div id="cover">
                         <form method="get" action="">
@@ -113,7 +115,33 @@
                         </form>
                     </div>
                 </li>
+-->
                    
+                   
+                  
+                   <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="What are you looking for?">
+                   
+                   
+
+<ul id="myUL" class="menu-hide">
+    
+    
+<!--  <li><a href="#" style="text-align: right; margin-right: 0; float: right">John</a></li>-->
+  <li><a href="bed.html">BEDS</a></li>
+
+  <li><a href="dining.html">DINING TABLES</a></li>
+  <li><a href="sofa.html">SOFAS</a></li>
+
+  <li><a href="chair.html">SEATING</a></li>
+  <li><a href="mattress.html">MATTRESS</a></li>
+  <li><a href="cupboards.html">CUPBOARD</a></li>
+  <li><a href="studytable.html">STUDY TABLES</a></li>
+  <li><a href="table.html">TABLES</a></li>
+  <li><a href="dressers.html">DRESSERS</a></li>
+  <li><a href="shoerack.html">SHOE RACKS</a></li>
+  <li><a href="tvUnits.html">TV UNITS</a></li>
+  <li><a href="storage.html">STORAGE</a></li>
+</ul>
                    
                    
 <!--
@@ -669,6 +697,25 @@
        <script>
   showSlides(slideIndex);
 
+</script>
+    <script>
+       $('.search-bar .icon').on('click', function() {
+  $(this).parent().toggleClass('active');
+});
+       </script>
+       
+<script>
+    function myFunction() {
+  var filter = document.getElementById("myInput").value.toUpperCase().trim();
+  
+  document.querySelector(".menu-hide").style.display = filter ? "block" : "none";
+
+  for (const a of document.querySelectorAll("#myUL li a")) {
+    a.style.display =
+      a.textContent.toUpperCase().includes(filter) ? "block" : "";
+  }
+}
+       
 </script>
        
     </body>

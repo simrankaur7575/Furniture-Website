@@ -364,3 +364,11 @@ padding: 10px;
     width: 100%;
   }
 }
+
+@media screen and (max-width: 680px)
+{
+	
+p.heading{
+    text-align: left;
+}
+}

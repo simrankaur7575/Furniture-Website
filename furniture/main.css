@@ -1155,6 +1155,27 @@ ul.topnav ul.prosearch a.d_down{
 @media screen and (max-width: 680px)
 {
 
+	#myInput{
+		display: none;
+	}
+	.flip-box:hover .box {
+  transform: rotateY(0deg);
+
+}
+
+	.flip-box-back {
+  background: linear-gradient(to bottom, #ff9966 0%, #ffcc99 100%);
+  color: white;
+  transform: rotateY(180deg);
+        box-shadow: -2px/*H*/ -2px/*V*/ 10px/*Blur*/ 2px/*Spread*/ rgba(0,0,0,.15),
+       0 2px 3px 0 rgba(0/*shadow*/,0/*bacground color*/,0/*Box color*/,.15/*opacity*/),2px 2px 7px 2px rgba(0,0,0,1);
+}
+	
+	ul.topnav li img {
+		height: 180px;
+		width: 100%;
+}
+	
 	hr.solid {
 		display: none;
 	}
@@ -1171,7 +1192,8 @@ ul.topnav ul.prosearch a.d_down{
   border: 1px solid transparent;
   margin-bottom: 30px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-		margin-left: 50px;
+		margin-left: 0%;
+	
 }
 	
 	h2.features
@@ -1185,7 +1207,7 @@ ul.topnav ul.prosearch a.d_down{
     font-style: italic;
     font-weight: 100;
     color: black;
-
+	
 
 }
 	.dropdown {
@@ -1216,7 +1238,7 @@ ul.topnav ul.prosearch a.d_down{
   width: 33.33%;
   padding: 10px;
   background-color: #ccc;
-  height: 240px;
+  height: 260px;
 }
 
 .column a {

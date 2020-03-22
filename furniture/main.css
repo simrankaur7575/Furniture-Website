@@ -37,7 +37,10 @@ article p{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-        padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
 }
 
 
